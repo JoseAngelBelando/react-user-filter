@@ -1,4 +1,4 @@
-import { StatusText } from './UserStatus.styles';
+import { StatusText } from './UserStatus.style';
 
 const UserStatus = ({ active }) => {
   return (
