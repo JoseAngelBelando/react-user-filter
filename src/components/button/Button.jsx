@@ -1,8 +1,7 @@
-import { StyledButton } from './button.styles';
+import { StyledButton } from './Button.styles';
 
-const Button = ({ color, children }) => {
-	console.log(color);
-	return <StyledButton color={color}>{children}</StyledButton>;
+const Button = ({ children }) => {
+  return <StyledButton>{children}</StyledButton>;
 };
 
 export default Button;
