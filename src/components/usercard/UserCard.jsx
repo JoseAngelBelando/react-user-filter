@@ -12,7 +12,6 @@ const UserCard = ({ user }) => {
       </div>
 
       <UserStatus active={user.active} />
-      {/* <Button>Ver Detalles</Button> */}
     </Card>
   );
 };

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const StatusText = styled.p`
-	font-size: 1.2em;
+	font-size: 1em;
 	color: ${props => (props.active ? 'green' : 'red')};
 `;
 
